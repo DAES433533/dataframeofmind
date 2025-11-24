@@ -5,3 +5,14 @@ dependencies:
   - jupyterlab
   - mystmd
   - jupyterlab-myst
+  - matplotlib
+  - cartopy
+  - pandas
+  - numpy
+  - xarray
+  - scipy
+  - geoviews
+  - pyproj
+  - tqdm
+  - pillow
+  - siphon
