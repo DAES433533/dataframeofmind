@@ -7,7 +7,7 @@ authors:
     website: https://github.com/msinnenberg 
     affiliation: University at Albany (State University of New York) 
   - family-names: Ishmam
-    given-names: Zuhayr Shahid
+    given-names: Zuhayr S.
     orcid: https://orcid.org/0000-0003-1806-6019
     website: https://github.com/ishmamshahid 
     affiliation: University at Albany (State University of New York) 
@@ -17,11 +17,11 @@ authors:
     website: https://github.com/JesseH44
     affiliation: University at Albany (State University of New York)
   - family-names: Belash
-    given-names: Ekaterina A
+    given-names: Ekaterina A.
     orcid: https://orcid.org/0009-0005-4537-2750
     website: https://github.com/e-belash
     affiliation: University at Albany (State University of New York)
   - name: "DataFrameofMind Contributors"
     website: "https://github.com/orgs/DAES433533/teams/dataframeofmind"
-title: "DataFrameofMind Cookbook"
-abstract: "Atmospheric rivers!"
+title: "Atmospheric Rivers Cookbook"
+abstract: "A cookbook that looks at atmospheric rivers"
