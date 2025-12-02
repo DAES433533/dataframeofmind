@@ -1,40 +1,24 @@
-# (Replace_with_your_title) Cookbook
+# Analyzing Atmospheric River Data of California, ATM 533 Group Project (Fall 2025, UAlbany, DAES) 
 
 <img src="thumbnails/thumbnail.png" alt="thumbnail" width="300"/>
 
 [![nightly-build](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml)
 [![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/cookbook-template/main?labpath=notebooks)
-[![DOI](https://zenodo.org/badge/475509405.svg)](https://zenodo.org/badge/latestdoi/475509405)
 
-_See the [Cookbook Contributor's Guide](https://projectpythia.org/cookbook-guide) for step-by-step instructions on how to create your new Cookbook and get it hosted on the [Pythia Cookbook Gallery](https://cookbooks.projectpythia.org)!_
 
-This Project Pythia Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., _working with radar data in Python_)
+This cookbook presents a streamlined workflow for analyzing ERA5 based gridded Atmospheric River (AR) data. It begins by demonstrating how to download large climate datasets to a local machine, followed by the extraction of Integrated Vapor Transport for AR diagnostics and its interactive visualization. The analysis then identifies some of the most severe AR events during two periods, 1951 to 1980 and 1991 to 2020, and visualizes how the spatial pattern of the most dangerous AR events has changed. The work concludes by comparing how much of the extreme rainfall in Sacramento and Los Angeles can be attributed to ARs across these two periods, while also quantifying changes in key thermodynamic variables, including temperature and precipitation, that are associated with extreme rainfall in California.
 
-## Motivation
 
-(Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
 
 ## Authors
 
-[First Author](https://github.com/first-author1), [Second Author](https://github.com/second-author2), etc. _Acknowledge primary content authors here_
+Team name: DataFrameofMind\
+Matthew Sinnenberg\
+Jesse Hoogs\
+Zuhayr Shahid Ishmam\
+Ekaterina Belash
 
-### Contributors
 
-<a href="https://github.com/ProjectPythia/cookbook-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ProjectPythia/cookbook-template" />
-</a>
-
-## Structure
-
-(State one or more sections that will comprise the notebook. E.g., _This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."_ Then, describe each section below.)
-
-### Section 1 ( Replace with the title of this section, e.g. "Foundations" )
-
-(Add content for this section, e.g., "The foundational content includes ... ")
-
-### Section 2 ( Replace with the title of this section, e.g. "Example workflows" )
-
-(Add content for this section, e.g., "Example workflows include ... ")
 
 ## Running the Notebooks
 
@@ -68,22 +52,22 @@ If you are interested in running this material locally on your computer, you wil
 
 (Replace "cookbook-example" with the title of your cookbooks)
 
-1. Clone the `https://github.com/ProjectPythia/cookbook-example` repository:
+1. Clone the `hhttps://github.com/DAES433533/dataframeofmind` repository:
 
    ```bash
-    git clone https://github.com/ProjectPythia/cookbook-example.git
+    git clone https://github.com/DAES433533/dataframeofmind.git
    ```
 
-1. Move into the `cookbook-example` directory
+2. Move into the `dataframeofmind` directory
    ```bash
-   cd cookbook-example
+   cd dataframeofmind
    ```
-1. Create and activate your conda environment from the `environment.yml` file
+3. Create and activate your conda environment from the `environment.yml` file
    ```bash
    conda env create -f environment.yml
-   conda activate cookbook-example
+   conda activate dataframeofmind-cookbook-dev
    ```
-1. Move into the `notebooks` directory and start up Jupyterlab
+4. Move into the `notebooks` directory and start up Jupyterlab
    ```bash
    cd notebooks/
    jupyter lab
