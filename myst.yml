@@ -19,6 +19,16 @@ project:
     - title: Visualization
       children:
         - file: notebooks/visualization.ipynb
+    - title: Thermodynamics
+      children:
+        - file: notebooks/precip.ipynb
+        - file: notebooks/temp.ipynb
+    - title: Statistics
+      children:
+        - file: notebooks/statistics.ipynb
+    - title: Data Analysis
+      children:
+        - file: notebooks/AR-California.ipynb
     - file: conclusion.md
   jupyter:
       binder:
