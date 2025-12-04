@@ -136,3 +136,6 @@ dmypy.json
 .nfs*
 
 .vscode/
+
+#Dont track data directory
+data/
