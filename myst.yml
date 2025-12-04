@@ -3,19 +3,33 @@ version: 1
 extends:
   - https://raw.githubusercontent.com/projectpythia/pythia-config/main/pythia.yml
 project:
-  title: Project Pythia Cookbook Template
-  github: https://github.com/projectpythia/cookbook-template
+  title: Data Frame of Mind Final Project
+  github: https://github.com/DAES433533/dataframeofmind
   authors:
-    - name: The Project Pythia Community
-  copyright: '2024'
+    - name: Jesse Hoogs
+    - name: Zuhayr Ishmam
+    - name: Matthew Sinnenberg
+    - name: Ekaterina Belash
+  copyright: '2025'
   toc:
     - file: README.md
-    - title: Preamble
+    - title: Getting Started
       children:
-        - file: notebooks/how-to-cite.md
-    - title: Introduction
+        - file: notebooks/data-access.ipynb
+    - title: Visualization
       children:
-        - file: notebooks/notebook-template.ipynb
+        - file: notebooks/visualization.ipynb
+    - title: Thermodynamics
+      children:
+        - file: notebooks/precip.ipynb
+        - file: notebooks/temp.ipynb
+    - title: Statistics
+      children:
+        - file: notebooks/statistics.ipynb
+    - title: Data Analysis
+      children:
+        - file: notebooks/AR-California.ipynb
+    - file: conclusion.md
   jupyter:
       binder:
-        repo: projectpythia/cookbook-template
+        repo: DAES433533/dataframeofmind
