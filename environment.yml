@@ -16,3 +16,5 @@ dependencies:
   - tqdm
   - pillow
   - siphon 
+  - metpy
+  - zarr
