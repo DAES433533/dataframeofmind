@@ -6,17 +6,17 @@
 [![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/cookbook-template/main?labpath=notebooks)
 
 
-This cookbook presents a streamlined workflow for analyzing ERA5 based gridded Atmospheric River (AR) data. It begins by demonstrating how to download large climate datasets to a local machine, followed by the extraction of Integrated Vapor Transport for AR diagnostics and its interactive visualization. The analysis then identifies some of the most severe AR events during two periods, 1951 to 1980 and 1991 to 2020, and visualizes how the spatial pattern of the most dangerous AR events has changed. The work concludes by comparing how much of the extreme rainfall in Sacramento and Los Angeles can be attributed to ARs across these two periods, while also quantifying changes in key thermodynamic variables, including temperature and precipitation, that are associated with extreme rainfall in California.
+This cookbook presents a streamlined workflow for analyzing ERA5-based gridded atmospheric river (AR) data. It begins by demonstrating how to download large climate datasets to a local machine, followed by the extraction of integrated vapor transport (IVT) for AR diagnostics and its interactive visualization. The analysis then identifies some of the most severe AR events during two periods, 1951 to 1980 and 1991 to 2020, and visualizes how the spatial pattern of the most dangerous AR events has changed. The work concludes by comparing how much of the extreme rainfall in Sacramento and Los Angeles can be attributed to ARs across these two periods, while also quantifying changes in key thermodynamic variables, including temperature and precipitation, that are associated with extreme rainfall in California.
 
 
 
 ## Authors
 
 Team name: DataFrameofMind\
-Matthew Sinnenberg\
-Jesse Hoogs\
-Zuhayr Shahid Ishmam\
-Ekaterina Belash
+Matthew Sinnenberg [https://github.com/msinnenberg]\
+Jesse Hoogs [https://github.com/JesseH44]\
+Zuhayr Shahid Ishmam [https://github.com/ishmamshahid]\
+Ekaterina Belash [https://github.com/e-belash] 
 
 
 
@@ -52,7 +52,7 @@ If you are interested in running this material locally on your computer, you wil
 
 (Replace "cookbook-example" with the title of your cookbooks)
 
-1. Clone the `hhttps://github.com/DAES433533/dataframeofmind` repository:
+1. Clone the `https://github.com/DAES433533/dataframeofmind` repository:
 
    ```bash
     git clone https://github.com/DAES433533/dataframeofmind.git
